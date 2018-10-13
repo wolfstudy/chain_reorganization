@@ -1,0 +1,9 @@
+package: github.com/wolfstudy/chain_reorganization
+import:
+- package: github.com/copernet/copernicus
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
